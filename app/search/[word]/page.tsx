@@ -4,9 +4,8 @@ import { notFound } from "next/navigation";
 import React from "react";
 
 type Props = {
-  params: {
-    word: string;
-  };
+  params: Promise<{word: string}>
+  
 };
 
 async function SearchPage({ params }: Props) {

@@ -4,12 +4,10 @@ import { getDiscoverMovies, getPopularMovies } from "@/lib/getMovies";
 import React from "react";
 
 type Props = {
-  params: {
-    id: string;
-  };
-  searchParams: {
-    genre: string;
-  };
+  params: Promise<{id: string}>
+
+  searchParams: Promise<{genre: string}>
+  
 };
 
 async function GenrePage({ params, searchParams }: Props) {

@@ -1,5 +1,4 @@
 import { getDiscoverMovies } from '@/lib/getMovies';
-import { Car } from 'lucide-react';
 import React from 'react'
 import CarouselBanner from './ui/CarouselBanner';
 

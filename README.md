@@ -1,5 +1,5 @@
 
-# Disney+ Clone
+# [Disney+ Clone](https://disney-clone-developers-project.vercel.app/)
 
 This is a Disney+ clone application built using HTML, CSS, TypeScript, React.js, Next.js, Tailwind CSS, and the Movie Database API (TheMovieDB). The project simulates a streaming platform like Disney+ by displaying movies, TV shows, and more, allowing users to browse and explore various categories.
 
@@ -9,7 +9,7 @@ This is a Disney+ clone application built using HTML, CSS, TypeScript, React.js,
 - **Responsive Design**: Works seamlessly across different devices.
 - **Search Functionality**: Search for movies and TV shows by name.
 - **API Integration**: Uses TheMovieDB API to fetch movie and TV show data dynamically.
-- **User Interface**: Modern, intuitive UI design similar to Disney+.
+- **User Interface**: Modern, intuitive UI design similar to Disney+ [here](https://disney-clone-developers-project.vercel.app/). 
 - **Next.js Pages**: Fully server-rendered pages for fast load times and SEO optimization.
 
 ## Tech Stack
@@ -54,8 +54,3 @@ Install the necessary Node modules with NPM. Make sure you have installed Node J
   npm run dev
 ```
 Enjoy and customize the app how you want.
-    
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-

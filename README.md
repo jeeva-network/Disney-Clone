@@ -48,7 +48,17 @@ Install the necessary Node modules with NPM. Make sure you have installed Node J
   npm install (or) npm i
 ```
 
-### 3. Run the Development Server
+### 3. Set up API Key:
+
+- Go to [TheMovieDB](https://www.themoviedb.org/) and create an account if you don’t have one.
+- Get your API key from [here](https://www.themoviedb.org/settings/api).
+- In the project, create a **.env.local** file and add your API key like so:
+
+```env
+  TMDB_API_KEY=abcd0.efGH123IjKlm
+```
+
+### 4. Run the Development Server
 
 ```bash
   npm run dev

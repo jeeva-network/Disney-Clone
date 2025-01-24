@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Disney+ Clone
 
-First, run the development server:
+This is a Disney+ clone application built using HTML, CSS, TypeScript, React.js, Next.js, Tailwind CSS, and the Movie Database API (TheMovieDB). The project simulates a streaming platform like Disney+ by displaying movies, TV shows, and more, allowing users to browse and explore various categories.
+
+## Features
+
+- **Browse Movies and TV Shows**: Display a wide selection of movies and TV shows.
+- **Responsive Design**: Works seamlessly across different devices.
+- **Search Functionality**: Search for movies and TV shows by name.
+- **API Integration**: Uses TheMovieDB API to fetch movie and TV show data dynamically.
+- **User Interface**: Modern, intuitive UI design similar to Disney+.
+- **Next.js Pages**: Fully server-rendered pages for fast load times and SEO optimization.
+
+## Tech Stack
+
+- **Frontend**:
+  - ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) React.js
+  - ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) Next.js
+  - ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) TypeScript
+  - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) HTML5
+  - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) CSS3
+  - ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white) Tailwind CSS
+  - ![ShadCN UI](https://img.shields.io/badge/-ShadCN%20UI-000000?style=flat-square&logo=shadcn&logoColor=white) ShadCN UI
+- **API**:
+  - ![TMDB](https://img.shields.io/badge/-TMDb-000000?style=flat-square&logo=themoviedb&logoColor=white) TheMovieDB API
+- **Styling**:
+  - Custom CSS for styling
+  - Responsive design using **Tailwind CSS**
+  - Prebuilt components from **ShadCN UI**
+## Setup Instructions
+
+To run the project locally, follow these steps:
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/jeeva-network/Disney-Clone.git
+
+cd disney-clone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install the necessary Node modules with NPM. Make sure you have installed Node JS already on your system. If not, click [here](https://nodejs.org/en/download) to download the latest Node LTS.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+  npm install (or) npm i
+```
 
-## Learn More
+### 3. Run the Development Server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm run dev
+```
+Enjoy and customize the app how you want.
+    
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
